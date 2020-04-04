@@ -1,0 +1,22 @@
+PesudoCode
+declare in .data section
+  prompt for user user
+  prompt for user's hometown
+  connecting string " , "
+  leadString "is a good place to come from!", 10
+
+declare in .bss section
+  userNameBuf
+  userNameBufLen
+  userHometownBuf
+  userHometownBufLen
+
+writeStr --> to prompt the user for name
+readStr  --> to read the user's name
+writeStr --> to prompt the user for hometown
+readStr  --> to read the user's hometown
+
+writeStr --> username
+writeStr --> a connecting string " , "
+writeStr --> user's hometown
+writeStr --> "is a good place to come from!", 10
